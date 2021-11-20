@@ -1,0 +1,47 @@
+body {
+    background-color: #EDD4B2;
+    color: #3B3561;
+}
+
+.ring {
+    width: 350px;
+	height: 180px;
+	transform: skew(-50deg);
+	background: #ED6A5A;
+    position: relative;
+}
+
+.button {
+    color: #3B3561;
+    font-size: 22px;
+}
+
+.table {
+    color: #3B3561;
+    border: #ED6A5A;
+    font-size: 15px;
+}
+
+.player1hand {
+    transform: skew(50deg);
+    position: absolute;
+    top: 10px;
+    left: -100px;
+}
+
+.player2hand {
+    transform: skew(50deg);
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+
+.handleft {
+    width: 255px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.handright {
+    width: 255px;
+}
